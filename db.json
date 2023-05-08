@@ -1,0 +1,91 @@
+{
+  "students": [
+    {
+      "students": {
+        "studentRoll": "1",
+        "studentName": "Rohan",
+        "studentClass": "6",
+        "studentSubject": "Maths",
+        "studentTeacher": "Rahul"
+      },
+      "id": 9
+    },
+    {
+      "students": {
+        "studentRoll": "12",
+        "studentName": "Abhi",
+        "studentClass": "6",
+        "studentSubject": "Maths",
+        "studentTeacher": "Rahul"
+      },
+      "id": 10
+    },
+    {
+      "students": {
+        "studentRoll": "2",
+        "studentName": "Rajan",
+        "studentClass": "5",
+        "studentSubject": "Maths",
+        "studentTeacher": "Rajesh"
+      },
+      "id": 11
+    },
+    {
+      "students": {
+        "studentRoll": "1",
+        "studentName": "Rajan",
+        "studentClass": "6",
+        "studentSubject": "Maths",
+        "studentTeacher": "Sanjay"
+      },
+      "id": 12
+    }
+  ],
+  "teachers": [
+    {
+      "teachers": {
+        "teacherName": "Sanjay",
+        "teacherAge": "20",
+        "teacherSubject": "Language",
+        "teacherSalary": "1000"
+      },
+      "id": 1
+    },
+    {
+      "teachers": {
+        "teacherName": "Rohan",
+        "teacherAge": "40",
+        "teacherSubject": "Science",
+        "teacherSalary": "30000"
+      },
+      "id": 2
+    },
+    {
+      "teachers": {
+        "teacherName": "Rahul",
+        "teacherAge": "40",
+        "teacherSubject": "Science",
+        "teacherSalary": "30000"
+      },
+      "id": 3
+    },
+    {
+      "teachers": {
+        "teacherName": "Rahul",
+        "teacherAge": "45",
+        "teacherSubject": "Maths",
+        "teacherSalary": "50000"
+      },
+      "id": 3
+    },
+    {
+      "teachers": {
+        "teacherName": "Santosh",
+        "teacherAge": "30",
+        "teacherSubject": "Language",
+        "teacherSalary": "100000"
+      },
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<h2>Update Teacher's Details</h2>
+<br>
+<br>
+<form [formGroup]="teacherForm" (ngSubmit)="teacherUpdate()"> 
+
+    <div class="form-group">
+      <label for="teacherName" class="form-label">Teacher Name</label>
+      <input type="teacherName" class="form-control" id="teacherName" formControlName="teacherName">
+    </div>
+    <div class="form-group">
+        <label for="teacherAge" class="form-label">Age</label>
+        <input type="teacherAge" class="form-control" id="teacherAge" formControlName="teacherAge">
+    </div>
+    <div class="form-group">
+      <label for="teacherSubject" class="form-label">Subject</label>
+      <input type="teacherSubject" class="form-control" id="teacherSubject" formControlName="teacherSubject">
+    </div>
+    <div class="form-group">
+        <label for="teacherSalary" class="form-label">Salary</label>
+        <input type="teacherSalary" class="form-control" id="teacherSalary" formControlName="teacherSalary">
+    </div>
+    <br>
+    <br>
+    <div>
+        <button type="submit" class="btn btn-primary">Update</button>
+    </div>
+  </form>
